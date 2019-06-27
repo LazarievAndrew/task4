@@ -1,6 +1,6 @@
 var yourAge = prompt ('Введите Ваш возраст (полное количество лет)');
 
-while (isNaN(+yourAge) || yourAge == null || yourAge < 5 || yourAge > 120){
+while (isNaN(+yourAge) || yourAge < 5 || yourAge > 120){
    yourAge = prompt ('Введите Ваш возрас корректно (он должен состоять из цифр, количество лет от 5 до 120)');
 }
 
